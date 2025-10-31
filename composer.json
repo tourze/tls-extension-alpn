@@ -1,0 +1,28 @@
+{
+  "name": "tourze/tls-extension-alpn",
+  "description": "Application-Layer Protocol Negotiation (ALPN) extension for TLS",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "tourze/enum-extra": "0.1.*",
+    "tourze/tls-common": "0.0.*",
+    "tourze/tls-handshake-messages": "0.0.*"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^2.1",
+    "phpunit/phpunit": "^11.5",
+    "tourze/phpunit-base": "1.*",
+    "tourze/phpunit-enum": "0.0.*",
+    "tourze/symfony-testing-framework": "0.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tourze\\TLSExtensionALPN\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tourze\\TLSExtensionALPN\\Tests\\": "tests/"
+    }
+  }
+}

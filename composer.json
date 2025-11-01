@@ -4,7 +4,7 @@
   "type": "library",
   "license": "MIT",
   "require": {
-    "tourze/enum-extra": "1.*",
+    "tourze/enum-extra": "1.0.*",
     "tourze/tls-common": "0.0.*",
     "tourze/tls-handshake-messages": "0.0.*"
   },
